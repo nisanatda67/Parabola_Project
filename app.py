@@ -43,26 +43,22 @@ with tab1:
         st.metric("ทิศทางการเปิด", direction)
 
     with tab2:
-    st.subheader("🏘️ สมการพาราโบลา")
+        st.subheader("🏘️ สมการพาราโบลา")
 
-    st.markdown("#FF7F50 พาราโบลาแนวตั้ง")
-    st.latex(r"y = a(x-h)^2 + k")
+        st.markdown("#FF7F50 พาราโบลาแนวตั้ง")
+        st.latex(r"y = a(x-h)^2 + k")
+    
+        st.write("โดย")
+        st.write("- a = ค่าความกว้างและทิศทางการเปิด")
+        st.write("- h = พิกัด x ของจุดยอด")
+        st.write("- k = พิกัด y ของจุดยอด")
+        st.write("- จุดยอด คือ (h, k)")
+    
+        st.markdown("#228B22 พาราโบลาแนวนอน")
+        st.latex(r"x = a(y-k)^2 + h")
+    
+        st.write("โดย")
+        st.write("- a > 0 → เปิดไปทางขวา")
+        st.write("- a < 0 → เปิดไปทางซ้าย")
+        st.write("- จุดยอด คือ (h, k)")
 
-    st.write("โดย")
-    st.write("- a = ค่าความกว้างและทิศทางการเปิด")
-    st.write("- h = พิกัด x ของจุดยอด")
-    st.write("- k = พิกัด y ของจุดยอด")
-    st.write("- จุดยอด คือ (h, k)")
-
-    st.markdown("#228B22 พาราโบลาแนวนอน")
-    st.latex(r"x = a(y-k)^2 + h")
-
-    st.write("โดย")
-    st.write("- a > 0 → เปิดไปทางขวา")
-    st.write("- a < 0 → เปิดไปทางซ้าย")
-    st.write("- จุดยอด คือ (h, k)")
-
-    st.markdown("✏️ ตัวอย่าง")
-    st.latex(r"y = 2(x-1)^2 + 3")
-    st.write("จุดยอด = (1, 3)")
-    st.write("a = 2 > 0 ดังนั้นกราฟเปิดขึ้น")
