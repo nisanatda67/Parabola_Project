@@ -22,7 +22,7 @@ with tab1:
     if "แนวตั้ง" in parabola_type:
         x = np.linspace(h - 5, h + 5, 200)
         y = a * (x - h)**2 + k
-        ax.plot(x, y, color="#F0FFFF", lw=2.5, label="Parabola")
+        ax.plot(x, y, color="#B22222", lw=2.5, label="Parabola")
         direction = "หงาย (เปิดบน)" if a > 0 else "คว่ำ (เปิดล่าง)"
     else:
         y = np.linspace(k - 5, k + 5, 200)
