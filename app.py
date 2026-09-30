@@ -1,7 +1,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
-st.title('🌙Parabola graph💫')
+st.title('🌙Parabola project💫')
 st.badge(" Hi we are Four Seasons")
 # 1. Sidebar และ Widgets 3 ชนิด (selectbox, slider, number_input)
 parabola_type = st.sidebar.selectbox("รูปแบบ", ["แนวตั้ง: y = a(x-h)² + k", "แนวนอน: x = a(y-k)² + h"])
