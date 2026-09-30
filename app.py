@@ -42,8 +42,6 @@ with tab1:
         st.metric("จุดยอด (h, k)", f"({h}, {k})")
         st.metric("ทิศทางการเปิด", direction)
 
-with tab2:
-    st.subheader("สมการพาราโบลา")
     with tab2:
     st.subheader("🏘️ สมการพาราโบลา")
 
