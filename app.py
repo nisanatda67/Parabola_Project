@@ -43,9 +43,9 @@ with tab1:
         st.metric("ทิศทางการเปิด", direction)
 
     with tab2:
-        st.subheader("🏘️ สมการพาราโบลา")
+        st.subheader("♥️สมการพาราโบลา")
 
-        st.markdown("#FF7F50 พาราโบลาแนวตั้ง")
+        st.markdown("พาราโบลาแนวตั้ง")
         st.latex(r"y = a(x-h)^2 + k")
     
         st.write("โดย")
@@ -54,7 +54,7 @@ with tab1:
         st.write("- k = พิกัด y ของจุดยอด")
         st.write("- จุดยอด คือ (h, k)")
     
-        st.markdown("#228B22 พาราโบลาแนวนอน")
+        st.markdown("พาราโบลาแนวนอน")
         st.latex(r"x = a(y-k)^2 + h")
     
         st.write("โดย")
