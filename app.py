@@ -27,10 +27,10 @@ with tab1:
     else:
         y = np.linspace(k - 5, k + 5, 200)
         x = a * (y - k)**2 + h
-        ax.plot(x, y, color="#FFD700", lw=2.5, label="Parabola")
+        ax.plot(x, y, color="#FFFACD", lw=2.5, label="Parabola")
         direction = "เปิดขวา" if a > 0 else "เปิดซ้าย"
         
-    ax.plot(h, k, 'o', color="#FF1493", label=f"Vertex ({h}, {k})")
+    ax.plot(h, k, 'o', color="#FFC0CB", label=f"Vertex ({h}, {k})")
     ax.grid(True, linestyle=":", alpha=0.5)
     ax.legend()
     
