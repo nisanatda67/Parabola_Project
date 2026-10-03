@@ -16,7 +16,7 @@ tab1, tab2 = st.tabs(["˚˖𓍢⭐໋`🌿กราฟ & วิเคราะ�
 with tab1:
     col1, col2 = st.columns([2, 1])
     fig, ax = plt.subplots(facecolor="#FF69B4")
-    ax.set_facecolor("#FFF0F5")  
+    ax.set_facecolor("#E0FFFF")  
     if "แนวตั้ง" in parabola_type:
         x = np.linspace(h - 5, h + 5, 200)
         y = a * (x - h)**2 + k
